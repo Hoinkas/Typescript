@@ -9,7 +9,7 @@ class Person {
         this.age = age;
     }
 
-    Show() {
+    Show():string {
         return document.body.innerHTML = `<h1>Witaj ${this.name} i ${this.surname} mam ${this.age} lat</h1>`
     }
 }
